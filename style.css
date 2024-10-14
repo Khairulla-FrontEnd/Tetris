@@ -1,0 +1,62 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+}
+#game-board {
+  border: 20px solid rgb(13, 13, 139);
+  background-color: black;
+}
+#title {
+  font-weight: 700;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  gap: 5px;
+  left: 220px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#title p:first-child {
+  color: aqua;
+}
+#title p:nth-child(2) {
+  color: greenyellow;
+}
+#title p:nth-child(3) {
+  color: brown;
+}
+#title p:nth-child(4) {
+  color: crimson;
+}
+#title p:nth-child(5) {
+  color: yellow;
+}
+#title p:nth-child(6) {
+  color: red;
+}
+#play {
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 25px;
+  font-size: 35px;
+  position: absolute;
+  background-color: rgb(13, 13, 139);
+  border: 0;
+  color: white;
+  right: 420px;
+  transition: 0.3s linear;
+  border: 5px solid black;
+}
+#play:hover {
+  background-color: white;
+  color: rgb(13, 13, 139);
+}
+#play:active {
+  background-color: rgb(13, 13, 139);
+  color: white;
+  transition: 0s;
+}
